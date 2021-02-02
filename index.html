@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h5>Random pair generator</h5>
+    <form onsubmit="return false">
+        <label for="inputPairs">Names</label>
+        <textarea class="u-full-width" placeholder="Michael,Simon,Hanne" id="inputPairs" ></textarea>
+        <button class="button-primary" id="submitPairsBtn">Create pairs</button>
+        <label for="outputPairs">Pairs</label>
+        <div><ul id="outputPairs"></ul></div>
+        <button class="button-primary" id="copyPairsBtn">Copy</button>
+        <button class="button-primary" id="newPairsBtn">Next Set</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
